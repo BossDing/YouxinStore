@@ -1,0 +1,4 @@
+# YouxinStore
+基于Dubbox的B2B2C商城
+
+商城采用SpringMVC+Spring+MyBatis+Dubbox构建,采用分布式架构完成项目开发。后期改造成基于SpringCloud技术栈的微服务项目

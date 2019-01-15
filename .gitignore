@@ -31,3 +31,12 @@ hs_err_pid*
  gen/
  .settings/
  target/
+
+**/.settings/
+**/target/
+**/*.classpath
+**/*.project
+**/*.DS_Store
+**/*.class
+**/*.jar
+

@@ -25,7 +25,7 @@
 
 	<!-- 引用dubbo 服务 -->
 	<dubbo:application name="youxin-store-manager-web" />
-	<dubbo:registry address="zookeeper://192.168.33.102:2181,zookeeper://192.168.33.103:2181,zookeeper://192.168.33.104:2181"/>
+	<dubbo:registry address="zookeeper://192.168.33.102:2181?backup=192.168.33.103:2181,192.168.33.104:2181"/>
 	<dubbo:annotation package="com.beautifulsoup.youxin.manager.controller" />  	
 
 </beans>

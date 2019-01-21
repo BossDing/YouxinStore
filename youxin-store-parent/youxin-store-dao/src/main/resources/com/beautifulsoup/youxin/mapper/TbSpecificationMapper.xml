@@ -97,6 +97,9 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.beautifulsoup.youxin.dataobject.TbSpecification" >
+  	<selectKey keyProperty="int" order="AFTER" resultType="java.lang.Lang">
+  		select LAST_INSERT_ID() as id
+  	</selectKey>
     insert into tb_specification (id, spec_name)
     values (#{id,jdbcType=BIGINT}, #{specName,jdbcType=VARCHAR})
   </insert>
